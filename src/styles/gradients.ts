@@ -1,0 +1,28 @@
+export const gradients = {
+  wheat: 'linear-gradient(180deg, #FFEECE 0%, #FFF1C2 48.96%, #FFF6C8 100%)',
+  jungli: 'linear-gradient(159.92deg, #72DE62 3.66%, #FF9B53 95.58%)',
+  cold: 'linear-gradient(159.92deg, #77C4E6 3.66%, #5379FF 95.58%)',
+  dark: 'linear-gradient(156.79deg, #757FA1 4.1%, #090B37 107.16%)',
+  china: 'linear-gradient(156.79deg, #D3464C 4.1%, #F4EA55 107.16%)',
+  sunset: 'linear-gradient(180deg, #FF9B71 0%, rgba(255, 155, 113, 0.53) 100%)',
+  polar: 'linear-gradient(159.92deg, #9ECFE3 3.66%, #B7C7FD 95.58%)',
+  dawn: 'radial-gradient(170.91% 116.41% at 50% -22.29%, #FFCA43 0%, #F77E36 65.96%, #D95000 100%)',
+  snow: 'linear-gradient(95.61deg, rgba(216, 241, 255, 0.47) 29.19%, rgba(196, 233, 255, 0.38) 74.18%)',
+  peach: 'linear-gradient(90deg, rgba(255, 237, 211, 0.6) 0%, rgba(254, 158, 126, 0.6) 100%)',
+  glow: 'radial-gradient(50% 50% at 50% 50%, #F4BE32 0%, rgba(244, 190, 50, 0) 100%)',
+  sunrise: 'linear-gradient(180deg, #FF7D2B 8.33%, #FFAD32 81.25%)',
+  grapefruit: 'linear-gradient(180deg, #FFA115 20.63%, #FF6320 85.42%)',
+  dustyOrange:
+    'radial-gradient(170.91% 116.41% at 50% -22.29%, #FFDF39 0%, #FF773D 65.96%, #FF6B3D 100%)',
+  grape:
+    'radial-gradient(170.91% 116.41% at 50% -22.29%, #C956FF 0%, #7A2DF9 65.96%, #580CD6 100%)',
+  sea: 'radial-gradient(170.91% 116.41% at 50% -22.29%, #AEFFEC 0%, #5FB1F3 65.96%, #3197EA 100%)',
+  mouse: 'linear-gradient(156.79deg, #FFE485 4.1%, #FF8718 107.16%)',
+  magic: 'linear-gradient(156.79deg, #FD98FF 4.1%, #FFC736 99.26%)',
+  dragonEgg: 'linear-gradient(156.79deg, #B45CA5 4.1%, #E9CEFF 107.08%)',
+  ponyEgg: 'linear-gradient(156.79deg, #7EE0FF 4.1%, #FF9A95 107.08%)',
+  coldEgg: 'linear-gradient(156.79deg, #3038FF 4.1%, #21F5FC 84.08%)',
+  ewaEgg: 'linear-gradient(156.79deg, #314B99 4.1%, #25EDE1 107.08%)',
+  pingvi: 'linear-gradient(156.79deg, #1254FF 4.1%, #FCFF81 107.08%)',
+  delphi: 'linear-gradient(156.79deg, #45D9ED 4.1%, #FFC998 103.38%)',
+}

@@ -1,0 +1,7 @@
+export * from './CodeInput'
+export * from './BasicInput'
+export * from './RegistrationInput'
+export * from './AmountInput'
+export * from './MessageInput'
+export * from './PromocodeInput'
+export * from './SearchInput'

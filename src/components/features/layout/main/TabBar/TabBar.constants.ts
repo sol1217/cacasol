@@ -1,0 +1,1 @@
+export const UP_BUTTON_MIN_SHOW_POSITION = 200

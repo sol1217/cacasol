@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "downlevelIteration": true,
+    "paths": {
+      "@components": ["components"],
+      "@components/*": ["components/*"],
+      "@core": ["components/core"],
+      "@core/*": ["components/core/*"],
+      "@shared": ["components/shared"],
+      "@shared/*": ["components/shared/*"],
+      "@features": ["components/features"],
+      "@features/*": ["components/features/*"],
+      "@assets": ["assets"],
+      "@assets/*": ["assets/*"],
+      "@helpers": ["helpers"],
+      "@helpers/*": ["helpers/*"],
+      "@styles": ["styles"],
+      "@styles/*": ["styles/*"],
+      "@utils": ["utils"],
+      "@utils/*": ["utils/*"],
+      "@store": ["store"],
+      "@store/*": ["store/*"],
+      "@hooks": ["hooks"],
+      "@hooks/*": ["hooks/*"],
+      "@i18n": ["i18n"],
+      "@i18n/*": ["i18n/*"]
+    }
+  },
+
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
